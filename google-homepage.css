@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    font-family: Roboto, arial, sans-serif;
+    color: #222222;
+}
+a {
+    text-decoration: none;
+    margin: 5px;
+    color: #222222;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px;
+    
+}
+nav > ul {
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 15px;
+    margin: 0 5px 0 15px;
+}
+
+nav > ul > i {
+    padding: 8px;
+}
+
+nav > ul > img {
+    border-radius: 50%;
+}
+
+.nav_left {
+    color: #222222;
+}
+
+.nav_right {
+    color: #000000DE;
+    font-size: 13px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 18vh;
+}
+
+.search_container {
+    height: 30px;
+    width: 600px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    padding-left: 14px;
+    margin-top: 20px;
+
+}
+
+.search_container:hover {
+    box-shadow: 0 0 10px 0 #dfe1e5;
+}
+
+.search_container > img {
+    height: 24px;
+    width: 24;
+    cursor: pointer;
+    padding-right: 15px;
+}
+
+.search_container > input {
+    border: none;
+    flex-grow: 1;
+    outline: none;
+}
+
+.search_container > i {
+    color: #dfe1e5;
+    cursor: pointer;
+}
+
+.button_container {
+    padding-top: 30px;
+
+}
+
+.button_container > button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+}
+
+footer {
+    position: fixed;
+    background-color: #f2f2f2;
+    bottom: 0;
+    width: 100%;
+    color: #70757a;
+}
+
+footer > div {
+    width: 100%;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+}
+
+.footer_left {
+    color: #70757a;
+    justify-content: start;
+}
+
+.footer_middle {
+    color: #70757a;
+    padding: 0;
+    margin: 0;
+    align-self: center;
+    justify-self: center;
+}
+
+.footer_right {
+    color: #70757a;
+    justify-content: end;
+}
